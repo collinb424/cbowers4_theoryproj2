@@ -1,1 +1,2 @@
-- Refer to readme_cbowers4.pdf for much more information on the project.
+## Note:
+- Refer to readme_cbowers4.pdf for more information on the project.
