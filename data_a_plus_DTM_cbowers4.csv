@@ -1,0 +1,9 @@
+a plus DTM
+q1,q2
+a
+a,_
+q1
+q2
+qreject
+q1,a,q1,a,R
+q1,_,q2,a,R

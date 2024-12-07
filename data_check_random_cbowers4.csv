@@ -1,0 +1,13 @@
+check random
+q0,q1,qacc
+0,1
+0,1,_
+q0
+qacc
+qrej
+q0,0,q0,0,R
+q0,1,q1,1,R
+q0,1,qacc,1,R
+q1,0,q1,0,R
+q1,0,qacc,0,R
+q1,1,qacc,1,R

@@ -1,0 +1,12 @@
+a plus
+q1,q2,qacc,qrej
+a
+a,_
+q1
+qacc
+qrej
+q1,a,q1,a,R
+q1,a,q2,a,R
+q1,_,qrej,_,R
+q2,a,qrej,a,R
+q2,_,qacc,_,R

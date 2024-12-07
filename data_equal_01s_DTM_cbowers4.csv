@@ -1,0 +1,24 @@
+{w | w has the same number of 0's and 1's} Deterministic
+q0,q1,q2,q3,q4,qacc,qrej
+0,1
+0,1,_
+q0
+qacc
+qrej
+q0,_,qacc,_,R
+q0,0,q1,_,R
+q1,0,q1,0,R
+q1,x,q1,x,R
+q1,1,q3,x,L
+q0,1,q2,_,R
+q2,1,q2,1,R
+q2,x,q2,x,R
+q2,0,q3,x,L
+q3,0,q3,0,L
+q3,1,q3,1,L
+q3,x,q3,x,L
+q3,_,q4,_,R
+q4,_,qacc,_,R
+q4,1,q2,x,R
+q4,0,q1,x,R
+q4,x,q4,x,R
